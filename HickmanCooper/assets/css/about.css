@@ -1,0 +1,102 @@
+/*---------------------------------------------------------------- */
+/*--------------------About section styling----------------------- */
+/*---------------------------------------------------------------- */
+.about{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;  
+
+}
+
+.customer-banner-section{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;  
+    background-color: #0109C49E;
+}
+.sub-banner{
+
+  width:80% ;height:50vh;top:-30px;position:relative;
+  border: 4px solid #0109C4;
+  
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #0109C49E; /* Replace with your desired color */
+
+    
+}
+.carousel-controls {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+    }
+
+    .carousel-controls button {
+      position: absolute;
+      margin-left: -140px;
+
+
+   
+    }
+    .carousel-controls  .carousel-control-next-icon{
+      position: absolute;
+      margin-right:-250px;
+
+    }
+
+    .carousel-controls button span {
+        color: red!important
+    }
+  
+
+/* Change the color of the carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #0109C4; /* Replace with your desired color */
+    color: red; /* Replace with the desired icon color */
+
+}
+.card-body .custom-list {
+    list-style: disc; /* or list-style-type: disc; */
+    padding-left: 20px; /* Adjust the padding as needed */
+    color: red!important;
+    list-style-type: disc!important;
+}
+@media (max-width: 1200px) {
+    .solution-card .card-body {
+        max-height: 1000px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 992px) {
+    .solution-card .card-body {
+        max-height: 800px; /* Adjust as needed */
+    }
+}
+.customer-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+        }
+
+        .customer-image {
+            border-radius: 50%;
+            margin:30px
+        }
+
+     
+
+        .customer-review {
+            margin-top: 10px;
+        }
+        .customer-vendor .customer-image{
+    margin-top: 5px;
+        }
+      

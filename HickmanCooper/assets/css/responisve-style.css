@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200&family=Roboto+Mono:ital,wght@0,200;1,100&display=swap');
+  @media (max-width:1170px)
+  {
+      
+  }
+  @media (max-width:991px)
+  {
+  
+  }
+  @media (max-width:767px)
+  {
+      body,html{     
+         
+      }
+      /* .small-icon{
+        margin: 120px!important;
+    }
+   */
+  }
+  @media (max-width:567px)
+  {
+
+    .contacts {
+      display: block!important; /* Change from flex to block on small screens */
+      text-align: center; /* Align center for text and image */
+  }
+      /* body,html{     
+          font-size:7px;      
+      }
+      .section-subtitle{
+        max-width: 80%;
+      
+       
+      }
+      .navbar-brand img {
+          max-width: 100px!important; 
+          max-height: 60px!important; 
+        }
+        .footer_wrapper  .social-network .fab{
+          font-size: 16px;
+          top: 8px;
+          position: relative;
+      } */
+  }
+
