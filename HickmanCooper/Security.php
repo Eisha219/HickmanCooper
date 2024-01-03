@@ -517,7 +517,7 @@ components within the project scope
 
 
 </section>
-
+ 
     <!-------------------------Looking for a Vendor That Treats Your Security Like Its Own? section start ----------------- -->
 <div class="container">
   <div class="row">
@@ -617,16 +617,14 @@ components within the project scope
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <!-- Icon (Font Awesome used here, you can replace it with your preferred icon library) -->
-                        <i class="fas fa-3x fa-star"></i>
-
-                        <!-- Heading -->
-                        <h5 class="card-title mt-3">Card Heading</h5>
-
-                        <!-- Paragraph -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="card-body bg-warning ">
+                        <div class="d-flex justify-content-center text-white">
+                        <img src="./assets/images/security/treat-icon-2.svg" alt="" class="d-block">
+                         <h5 class="card-title mt-3">Director of inforamation Security</h5>
+                        </div>
+                    </div>
+                    <div class="card-body bg-white ">
+                     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deleniti eligendi ratione, nemo distinctio unde. Eligendi at sunt corrupti nam. Quam sed expedita voluptate error molestias a laudantium hic doloremque.</p>
                     </div>
                 </div>
             </div>
